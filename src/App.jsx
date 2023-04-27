@@ -129,7 +129,7 @@ function Navs(props) {
             <label tabIndex={0}>
             <div className='indicator mr-3'>
               <span className="indicator-item indicator-end badge badge-secondary w-7 ml-3">{props.sells}</span> 
-              <img className="indicator-top w-8" src="/notification-icon.svg" />
+              <img className="indicator-top w-8" src="/cart-icon.svg" />
             </div>
             </label>
             }
