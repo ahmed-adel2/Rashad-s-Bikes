@@ -70,7 +70,7 @@ function Navs(props) {
               <li><a onClick={goToFooter}>Contact Us</a></li>
             </ul>
           </div>
-          <img src="/public/Rashad's name.jpeg" id='rashads-name' />
+          <img src="/Rashad's name.jpeg" id='rashads-name' />
         </div>
 
 
@@ -104,13 +104,13 @@ function Navs(props) {
           <div className="dropdown dropdown-end ">
           { props.notification ===0?
             <label tabIndex={0}>
-              <img className="w-8" src="public/notification-icon.svg" />
+              <img className="w-8" src="/notification-icon.svg" />
             </label>
             :
             <label tabIndex={0}>
             <div className='indicator mr-3'>
               <span className="indicator-item indicator-end badge badge-secondary w-7 ml-3">{props.notification}</span> 
-              <img className="indicator-top w-8" src="/public/notification-icon.svg" />
+              <img className="indicator-top w-8" src="/notification-icon.svg" />
             </div>
             </label>
             }
@@ -123,13 +123,13 @@ function Navs(props) {
           <div className="dropdown dropdown-end ">
           { props.sells ===0?
             <label tabIndex={0}>
-              <img className="w-9" src="/public/cart-icon.svg" />
+              <img className="w-9" src="/cart-icon.svg" />
             </label>
             :
             <label tabIndex={0}>
             <div className='indicator mr-3'>
               <span className="indicator-item indicator-end badge badge-secondary w-7 ml-3">{props.sells}</span> 
-              <img className="indicator-top w-8" src="public/notification-icon.svg" />
+              <img className="indicator-top w-8" src="/notification-icon.svg" />
             </div>
             </label>
             }
