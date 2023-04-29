@@ -319,7 +319,7 @@ function Footer() {
           © 2023 Copyright:
           <a
             className="text-neutral-800 dark:text-neutral-400"
-            href="https://rashads-web-dev-portofolio.netlify.app/" target="_blank"> Rashad's</a>
+            href="https://rashads-web-development-portofolio.vercel.app/" target="_blank"> Rashad's</a>
         </div>
       </footer>
     </main>
